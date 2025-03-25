@@ -43,6 +43,6 @@ If the volume has partition, use the following command and specify the partition
 
 To unmount a volume, use the below command.
 
-         sudo unmount /dev/xvdf /data
+         sudo unmount /data
          
-         sudo unmount /dev/xvdf1 /data
+         sudo unmount /data

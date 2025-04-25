@@ -328,10 +328,10 @@ RUN ["command/executable" , "arg1","arg2"]
     ["mkdir" , "/opt/glorious batch"]
 
 CMD ["command/executable" , "arg1","arg2"]
-    ["catalina" , "run"]
+    ["catalina.sh" , "run"]
 
 ENTRYPOINT ["commond/executable" , "arg1","arg2"]
-           ["catalina" , "run"]
+           ["catalina.sh" , "run"]
 
 RUN --> RUN instruction will  execute commands/scripts.
         RUN commands or instructions will be executed while creating an image on top of the previous layers(Image). 

@@ -1111,7 +1111,7 @@ Ticket024:
   *- GitHub repository
     https://github.com/Solavise-Team/spring-boot-docker
   - dockerHub repository
-    solavisetech/sping-boot-mongo
+    solavisetech/spring-boot-mongo
 
 spring:
   data:

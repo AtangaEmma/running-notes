@@ -277,7 +277,7 @@ To change the group owner also, you can run the command
 
 We can change the owner and the groupowner at the same time, since our job is to automate task, we can run;
 
-               sudo ownername:grpowner
+               sudo chgrp ownername:grpowner
 
 DEMO
      illustrate how ownership is being changed for owner and groupowner in a directory or file

@@ -76,7 +76,7 @@ This will delete the user's home directory with relative ease
 And to delete a user from a secondary group is what you should also take special note of.
 To do that, run the command;
 
-                  sudo gpasswd username groupname
+                  sudo gpasswd -d username groupname
 
 Take note of the above command 
 

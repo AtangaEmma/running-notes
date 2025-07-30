@@ -46,7 +46,7 @@ e.g
     you will work with your team to develop, test, builded, review, secure, deploy, access, maintain, manage and minitor
     applications
  
-As we said, all this is done by using computerise automated solutions, so generally, if we use computerised solutions, this means
+As we said, all this is done by using computerized automated solutions, so generally, if we use computerised solutions, this means
 computers are involve 
  The big question here now is what types of computers are involve?
 
@@ -71,8 +71,8 @@ ENTERPRISE COMPUTERS
           - memory = 128gb----4000gb
           - cost = $2,000-$200,000
 
-But our job is to help companies using computerise solusions either by going to the market to buy servers and come and install or we use cloud service providers (CSP)
-So today, most companies move to the cloud service providers (CSP) for servers , these companies have a lot of computers that they have configure then together, network them and just waiting for companies
+But our job is to help companies using computerized solutions either by going to the market to buy servers come and install or we use cloud service providers (CSP)
+So today, most companies move to the cloud service providers (CSP) for servers , cloud providers have a lot of computers that they have configure together, network them and just waiting for companies
 
 
 CSP = cloud service provider
@@ -87,7 +87,7 @@ what we can do in a bank
              create account, tranfer money, exchange, withdrawal, cash deposit,
              cheque deposit, loan, overdraft
 
-for this work to be done, a bank like Ecobank will need to imploy like 900 workers 
+for this work to be done, a bank like Ecobank will need to employ like 900 workers 
 to be executing this job and most of them do this job manually, 
 
 Now devOps engineers develop, test, build, qualify, deploy, manage and monitor applications

@@ -335,28 +335,42 @@ FILE MANAGEMENT COMMANDS
 ------------------------
 
   touch                      = creates a file
+  
   vi                         = create a file /or modify/edit a file
+ 
   cat/head/tail/less/more    = permits you read a file
+ 
   wc                         = word count command
+ 
   cp                         = copy a file / create backups
+  
   ln                         = creates symbolic links
+ 
   mv                         = re-name or migrate a file or directory
 
 
 There are some other file management commands that we need to take note of
 when we create a file, it has what is called a file permission
 e.g
+    
      d rwx r-x r-x. 3 ec2-user ec2-user 17 Jun 19 17:33 dev
+     
      -rw-r--r--. 2 ec2-user ec2-user  1 Jun 19 14:33 mytest
+    
      -rw-r--r--. 2 ec2-user ec2-user  1 Jun 19 14:33 test      
+    
      l rwx rwx rwx. 1 ec2-user ec2-user  8 Jun 20 18:29 test.txt -> test.txt
 
 
 
      1       2      3    4        5        6           7         8
+    
      d  rwxr-xr-x.  3  ec2-user  ec2-user  17  Jun 19  17:33    dev
+    
      -  rw-r--r--.  2  ec2-user  ec2-user  1   Jun 19  14:33    mytest
+    
      -  rw-r--r--.  2  ec2-user  ec2-user  1   Jun 19  14:33    test      
+    
      l  rwxrwxrwx.  1  ec2-user  ec2-user  8   Jun 20  18:29    test.txt -> test.txt
 
 In this file structure, we have what is called the field of the file or directory
@@ -365,29 +379,45 @@ FIELDS FOR FILES
 =================
 
        r = read
+      
        w = write       
+      
        x = execute
 
        1) type  =  here;    [- = stands for a file,  d = stands for a directory and l = stands for a symbolic link]
+       
        2) permissions       [ rwx,    r-w, r-x ]  
+      
        3) number of links
+      
        4) owner
+      
        5) Group owener
+      
        6) size of the file in bytes
+       
        7) date and time of creation
+     
        8) file name and directory name 
         
 
 Why do you think the prmission of a file is very important?
 we have three categories of permissions, namely 
      the, 
+         
           - rwx = read write execute
+         
           - r-w = read write
+         
           - r   = read
+
 By default, the first file permission belongs to the owner
 i.e
+   
     rwx = owned by owner
+    
     r-w = owned by group 
+   
     r   = owned others
 
 File permission is a key facture when it comes to security
@@ -401,17 +431,26 @@ This will be file security and permissions
 Generally we have three categories of individuals that can access a file, they are;
 
         - owner
+       
         - groupowner
+        
         - others
+
 Since we have three categories of individuals that can access a file, these files are are also access in different
 levels, the levels in which we can access a file include;
 
           you can read a file
+         
           you can write or modify a file
+         
           you can execute a file
+
 i.e
+         
           - read
+         
           - write
+        
           - execute
 
 The write access is the superior access to a file, this is because when you have a write access to a file, you are 
@@ -419,26 +458,34 @@ able to modify the file while others can not,
 You come to discover that with the executable access you can use the file for automation or to run some other commands
 
 The accesses are assined some numbers by default,
+
 i.e          
+     
           r - read    = 4  
+       
           w - write   = 2
+       
           x - execute = 1
 
 Take note that we have a directory that we have created, and a file
 I that directory and files, we have;
 
      drwxr-xr-x. 3 ec2-user ec2-user 17 Jun 19 17:33 dev
+    
      -rw-r--r--. 2 ec2-user ec2-user  1 Jun 19 14:33 mytes
 
 look closely at the permisions of the directory and that of the file
 you will find out that they have different permissions
+
  i.e
+   
      d rwx r-x r-x. 
+    
      - rw -r-- r--
 
 From the above default values of permissions, we can now say 
 
-                  owner        groupowner       others       default permission
+ owner        groupowner       others       default permission
                   
 directory         rwx = 7      r-x = 5         r-x = 5             755
 
@@ -461,7 +508,8 @@ and from the our default values above , we will have a full perssion as;
 Now we have seen the full permissions for directories and files and the default values,
 The difference between the full permission and the defaul permision is called the;
 
-           the UMASK value      
+  **the UMASK value**      
+
 i.e
                       file     directory 
                       
@@ -518,14 +566,16 @@ This means that the umask value of this kind of file is;
 
 Set a custom umask value to ensure that all files created should carry 600 permissions
 
-NOTE
--
+# NOTE
+    
       to check the umask value , just run the command  =   umask
-DEMO
--
+
+# DEMO
+  
     set the required umask value, use the command
 
               umask [required umask valur]
+  
   e.g
   -
             umask 0066 
@@ -547,14 +597,13 @@ DEMO
     Create some files and directroies while changing their permissions with the chmod command
     Use created files to show how automation access is granted to group and others, illustrating
     the importance of why file permission is very important,
+
 e.g
+  
     like a person can be sacked from the office while he/has had control over a file and another person 
     has replace the he/she and the file now will be run by the new person, so the ownership has to be changed,
     
-Changing owners of group are not done by normal users in the OS, so for you to change the ownership of a file,
-you must posses elivated priveleges or root access, or sudo access
-   so for you to change the ownership of a file, you need sudo access and take note that you can not change the
-   ownership of a user that doesn't exit in the system.
+Changing owners of group are not done by normal users in the OS, so for you to change the ownership of a file, you must posses elivated priveleges or root access, or sudo access so for you to change the ownership of a file, you need sudo access and take note that you can not change the ownership of a user that doesn't exit in the system.
 
                sudo chown
 
@@ -568,5 +617,6 @@ We can change the owner and the groupowner at the same time, since our job is to
 
 DEMO
 -
+   
      illustrate how ownership is being changed for owner and groupowner in a directory or file
       demonstrate couple of examples to the understanding of foxes

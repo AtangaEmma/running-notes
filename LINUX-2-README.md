@@ -196,9 +196,13 @@ let say you first day at work , you are assign a ticket,
   Creat a file (list.txt) and add content      
 
 1)emmanuel
+
 2)ernest
+
 3)vitalis
+
 4)paul
+
 5)john
 
 Please take note about what we are about to do now, because when ever we reach at juncture, most foxs

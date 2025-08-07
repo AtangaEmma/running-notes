@@ -158,7 +158,7 @@ ANSWER
      - security management    
           1) passwd command
           2) selinux
-          3) firewale 
+          3) firewall
 
 
 PACKAGE MANAGEMENT 

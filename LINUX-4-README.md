@@ -145,6 +145,7 @@ ANSWER
            4) apt / ubuntu/debian
            5) npm / node
            6) Chocolatey/choco / windows
+           7) MacOS / brew
 
      - managing services
 

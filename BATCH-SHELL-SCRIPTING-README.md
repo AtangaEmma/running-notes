@@ -81,54 +81,89 @@ run the script by:
 
        ./scriptName
 
-       ./welcome.sh
+        ./welcome.sh
+      
        ./script1.sh
   
- The file/script need executable Permissions to run  
+ The file/script need executable Permissions to run    
+
+ 
     chmod 744 welcome.sh  
+   
     chmod  u+x scriptName 
+    
     chmod   +x scriptName  
 
 Assign executable Permission:
+ 
   chmod +x fileName   
+  
   chmod +x script1.sh
+ 
   chmod 775 fileName 
+  
   chmod 700 fileName 
 
 shell: A shell is an interpreter that interpretes commands to the OS. 
 
 shells command interpreters:
+  
   Boune Shell  (sh)
+ 
   Boune Again Shell (bash)
+  
   csh / ksh / tsh / zsh  
 
+  
   echo $SHELL       =  List your current shell
       /bin/bash
+ 
   cat /etc/shells   = List all shells in your system
+  
      /bin/sh
+    
      /bin/bash
+  
      /usr/bin/sh
+   
      /usr/bin/bash
+    
      /bin/csh
+   
      /bin/tcsh
+    
      /usr/bin/csh
+   
     /usr/bin/tcsh
 
 sudo yum install ksh zsh -y 
 
 /bin/sh
+
 /bin/bash
+
 /usr/bin/sh
+
 /usr/bin/bash
+
 /bin/csh
+
 /bin/tcsh
+
 /usr/bin/csh
+
 /usr/bin/tcsh
+
 /usr/bin/zsh
+
 /bin/zsh
+
 /bin/ksh
+
 /bin/rksh
+
 /usr/bin/ksh
+
 /usr/bin/rksh
 
   bash -c ls  or ls   

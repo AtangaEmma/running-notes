@@ -301,7 +301,7 @@ var1.sh
 
       #!/bin/bash
       name=Atanga
-      cpy=solavisetech
+      cpy=primus
       echo "Good morning ${name}"
       echo "Good morning ${name}"
       echo Welcome to $cpy

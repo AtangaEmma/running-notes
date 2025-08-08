@@ -355,12 +355,19 @@ If you run the command
 It list out some system define variables
 
 SHELL=/bin/bash
+
 HISTCONTROL=ignoredups
+
 SYSTEMD_COLORS=false
+
 HISTSIZE=1000
+
 HOSTNAME=demo22
+
 PWD=/home/oke
+
 LOGNAME=oke
+
 HOME=/home/oke
 
 start writing your script with shebang [#!] /bin/sh]

@@ -485,10 +485,15 @@ Inequality signs :
 =================
 -eq  or  == represent equals to 
            (( $? == 0 )) [ X -eq = y]
+
 -ne  or  != represent not equals to 
+
 -gt  or  >  represent greater than
+
 -lt  or  <  represent less than 
+
 -ge  or >= greater than or equals to
+
 -le  0r <= less than  or equals to 
 
 
@@ -496,18 +501,29 @@ if else conditions
 ==================
 
 if [ votes -gt 50% ]
+
 then 
+
 echo he won the elections 
+
 fi  
 
 conditions :
+
 if statement  
+
 Syntax:
+
 if (( conditions ))
+
 then 
+
 commands 
+
 else  
+
 commands  
+
 fi
 
 if1.sh  
@@ -557,9 +573,15 @@ Team:
 project 1
 ========
 1. AWS Accounts are created for all team members 
+
 2. Create a redhat8 linux server 
+
 3. Connect to the redhat8 server using mobaXterm/terminal ssh-cleint 
+
 4. Program or configure the server for password authentication   
+
 5. Create a user call dominion and assign a password [admin123] 
+
 6. Connect to your server using dominion's user
+
 7. Run commands in the server as dominion's user

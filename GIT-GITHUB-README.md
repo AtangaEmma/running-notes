@@ -37,7 +37,11 @@ Versioning in Software Development:
 ===================================
 Version control systems = VCS:
 
-  Local = version1,
+A) Local system: 
+-
+Developers coding using thier local system e.g laptop
+ 
+ version1, (1000LINES)
   
   version2,[5000LINES ] 
           
@@ -62,7 +66,7 @@ problem here is that, we can't rollback and the server can
 go down (fail at anytime), so this method is also not really
 secured
 
-  Centralised:
+B)  Centralised:
   cons:
   -
 -can't RollBack.
@@ -78,10 +82,13 @@ Git manages data as snapshot
 ----------------------------
 
 It takes a picture of what all your file looks like
-at that and stores a reference of that snapshot 
-And we can make a reference of that snapshot.
+at that and stores them, and we can make a reference of that snapshot.
+
+Benefits of Git
+-
 
 With Git;
+
 Developers can collaborate
 
 Here, we have a distributed version control system

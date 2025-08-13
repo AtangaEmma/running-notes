@@ -17,7 +17,7 @@ Releasing an application is taking/deploying it to the client.
 In realtime we have multiple Releases.
 
 release1 = version1   = 1000lines of code  
-   echo 'Hello'
+   echo 'Hello, welcome to Primus Learning'
 
 release2 = version2  = 2000lines of code  
    echo 'Welcome to Paypal'.

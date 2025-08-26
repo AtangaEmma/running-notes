@@ -292,7 +292,7 @@ For this to be achieve,
            the member privilege page will display and under it there is a
            base permission page where member's permissions can be set
 
-           when this is done, the project repo can now be shared to members os
+           when this is done, the project repo can now be shared to members of
            the team where they can now write codes and push them to
 
 - ensure that git and relevant IDEs (integrated development environments)

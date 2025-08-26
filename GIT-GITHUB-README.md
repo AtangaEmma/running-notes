@@ -568,7 +568,7 @@ Run the command,
 
  where,
 
-      . = you present working directory
+      . = your present working directory
 i.e.
    you want add all the changes in your present working directory
    to the staging area

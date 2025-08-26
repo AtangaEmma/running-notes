@@ -275,22 +275,28 @@ So as DevOps engineer, you can be task to create:
    - a github account for your organization
    - create team and add members
    - create project repo in the organization for members
-   - grant permissions and roles to members and collaborators
-   the kind of permissions granted include,
+   
+# grant permissions and roles to members and collaborators
+The kind of permissions granted include,
+
 read  - can only read or view codes
+
 write - can read/view and make changes
+
 admin - can do all
+
 For this to be achieve,
+
            go to organization, under it , go to team and under settings
            select [member privileges]
-         the member privilege page will display and under it there is a
-         base permission page where member's permissions can be set
+           the member privilege page will display and under it there is a
+           base permission page where member's permissions can be set
 
-         when this is done, the project repo can now be shared to members os
-         the team where they can now write codes and push them to
+           when this is done, the project repo can now be shared to members os
+           the team where they can now write codes and push them to
 
-   - ensure that git and relevant IDEs (integrated development environments)
-     are installed by developers
+- ensure that git and relevant IDEs (integrated development environments)
+are installed by developers
 
 Git Installation
 ================

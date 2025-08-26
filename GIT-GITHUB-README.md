@@ -232,9 +232,10 @@ once that is done, the member will automatically be added to the team
 How To Create Repositories For A Team
 -------------------------------------
 
-     - Go to the organization dashboard, on the top bar, click/select repositories
+     - Go to the organization dashboard, on the top bar, click/select reositories
      -Create a repository for the organization.
-     -Go back to the organization dashborad and select team 
+     -Go back to the organization dashborad and select team
+     - Select repositories
      - Click on [add repository] in green coloration
      -Enter the repo name that you want to add to the team, on the saerch bar.
      -Select add repository 

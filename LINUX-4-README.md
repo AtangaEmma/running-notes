@@ -55,7 +55,7 @@ DEMO
 
              date -s "date, time" = set the date of the server
 
-             sudo timedatectl list-timezone = will list all the time zones
+             sudo timedatectl list-timezones = will list all the time zones
 
              sudo timedatectl set-timezone timezone = will set time zone
 

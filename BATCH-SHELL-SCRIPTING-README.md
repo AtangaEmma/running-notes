@@ -181,11 +181,17 @@ Shell-scripts has '.sc' or '.sh' extensions
     *.sc
 
   deploy.sh  = Shell-script [*.sh]
+ 
   test.txt   = text file    [*.txt]
+ 
   app.sc     = Shell-script [*.sc]
+
   app.java   = java code    [*.java] 
+ 
   monitor.py = python code/script [*.py] 
+ 
   app.yaml   = playbook or manifest file [*.yml] 
+ 
   main.tf    = terraform scripts/codes [*.tf]
 
 script1.sh
@@ -218,12 +224,19 @@ Tasks
 =====
 
 write a simple shell script to deploy applications 
+
 1. Create a deployment directory  
+
 2. create a deployment; app.java file  
+
 3. assign read Permission to app.java file
+
 4. Create a user moses
+
 5. change ownership of app.java file to moses
+
 6. Create app directory 
+
 7. copy the file to the app directory 
       
 

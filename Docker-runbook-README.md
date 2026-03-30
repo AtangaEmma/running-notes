@@ -196,7 +196,9 @@ Content:
 
   e.g
     Dockerfile:
+   
     FROM tomcat:8.0.20-jre8
+    
     COPY target/*.war /usr/local/tomcat/webapps/tesla.war 
 
  https://github.com/Solavisetech-Team/maven-web-app
@@ -233,18 +235,31 @@ java-based projects:
 Dockerfile keywords:
 ===================
 FROM
+
 MAINTAINER
+
 COPY
+
 ADD
+
 RUN
+
 CMD
+
 ENTRYPOINT
+
 WORKDIR
+
 ENV
+
 EXPOSE
+
 USER
+
 VOLUME
+
 LABEL
+
 ARG
 
 Base image generally contains Libraries and dependencies  :

@@ -96,18 +96,18 @@ Officially, Docker CE is not supported for Red Hat.
 ======================================
 
  # Amazon Linux
-###########################
-#!/bin/bash
-sudo hostnamectl set-hostname docker
-sudo yum update -y
-sudo hostnamectl set-hostname docker    
-sudo yum install docker -y
-sudo service docker start
-sudo usermod -aG docker ec2-user
-sudo su - ec2-user
-/bin/bash
 
-NB:
+       #!/bin/bash
+       sudo hostnamectl set-hostname docker
+       sudo yum update -y
+       sudo hostnamectl set-hostname docker    
+       sudo yum install docker -y
+       sudo service docker start
+       sudo usermod -aG docker ec2-user
+       sudo su - ec2-user
+       /bin/bash
+
+# NB:
 Add Regular users to docker group for them to run docker commands/tasks  
 sudo usermod -aG docker <username>
 

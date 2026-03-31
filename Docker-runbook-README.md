@@ -281,12 +281,19 @@ layers.
 
 
 Syntax: 
+
 FROM  <ImageName>
+
 Ex:
+
 FROM tomcat:8.0.20-jre8
+
 FROM openjdk:8-alpine
+
 FROM nginx
+
 FROM node
+
 FROM python
 
 MAINTAINER --> It's will be used as comments to describe 
@@ -329,22 +336,31 @@ These RUN,CMD,ENTRYPOINT can be defined in 2 forms.
 1) -#Shell Form
 
 RUN <command> <arg1> <arg2>
+   
      mkdir /opt/class  
+
 CMD <command> <arg1> <arg2>
+    
       catalina.sh  start  
+
 ENTRYPOINT <commond> <arg1> <arg2>
+    
       /bin/bash -c catalina.sh  start 
+    
      /bin/bash -c catalina run 
 
 2) -#Executable Form
 
 RUN ["command/executable" , "arg1","arg2"]
+  
     ["mkdir" , "/opt/glorious batch"]
 
 CMD ["command/executable" , "arg1","arg2"]
+   
     ["catalina.sh" , "run"]
 
 ENTRYPOINT ["commond/executable" , "arg1","arg2"]
+        
            ["catalina.sh" , "run"]
 
 RUN --> RUN instruction will  execute commands/scripts.
@@ -353,18 +369,28 @@ RUN --> RUN instruction will  execute commands/scripts.
         We can have number of RUN instructions in a docker file 
         all the RUN instructions will be exectued one after the other from top to bottom.
 
-   Dockerfile_CMD: 
+# Dockerfile_CMD: 
+  
   FROM tomcat:9.0.71-jdk8-corretto-al2
+  
   ADD target/tesla.war  /usr/local/tomcat/   
+ 
   CMD sh catalina.sh run 
+
   CMD ["catalina.sh", "run"]
 
- Dockerfile_RUN: 
+# Dockerfile_RUN: 
+
 FROM ubuntu
+
 RUN mkdir /opt/glotious-batch
+
 RUN touch /opt/glotious-batch/jobs
+
 ADD . /opt/glotious-batch
+
 CMD pwd  
+
 CMD ["echo", "I am rich"]
 
 docker build -t image2 -f Dockerfile_CMD . 

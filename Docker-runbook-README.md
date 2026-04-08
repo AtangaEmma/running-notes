@@ -87,6 +87,7 @@ Officially, Docker CE is not supported for Red Hat.
      sudo hostnamectl set-hostname docker
      sudo apt update -y
      sudo apt install docker.io -y
+     sudo service docker enable
      sudo service docker start
      sudo docker info
      sudo hostnamectl set-hostname docker 
@@ -102,6 +103,7 @@ Officially, Docker CE is not supported for Red Hat.
        sudo yum update -y
        sudo hostnamectl set-hostname docker    
        sudo yum install docker -y
+       sudo service docker enable
        sudo service docker start
        sudo usermod -aG docker ec2-user
        sudo su - ec2-user
